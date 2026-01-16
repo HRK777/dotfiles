@@ -1,0 +1,14 @@
+[include]
+	path = ~/.gitconfig_local
+
+[alias]
+	tree = log --graph --pretty=format:'%C(yellow)%h%C(reset) -%C(cyan)%d%C(reset) %s %C(green)(%ad) %C(bold green)<%an>%C(reset)' --abbrev-commit --date=format:'%Y-%m-%d'
+	st = status
+	pl = pull
+	ps = push
+	sync = !git fetch --all && git status
+	cm = commit
+	ad = add
+	sw = switch
+	br = branch
+	tr = tree
